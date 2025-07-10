@@ -31,7 +31,28 @@ Ela nos ajuda a entender como o tempo de execução cresce conforme o tamanho da
 
 ## 🔍 Busca Binária
 
-> *(Em construção)*
+A busca binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. Em vez de verificar item por item, ela reduz pela metade o espaço de busca a cada passo, tornando o processo muito mais rápido.
+
+> Exemplo: Imagine uma lista com 100 nomes em ordem alfabética.
+Se fizermos uma busca tradicional (linear), e o nome estiver no final da lista, poderíamos levar até 99 tentativas para encontrá-lo.
+Já com a busca binária, começamos examinando o elemento do meio da lista.
+
+Se for o nome desejado, terminamos.
+
+Se não for, decidimos se buscamos na metade anterior (caso o nome seja "menor") ou na metade posterior (caso seja "maior").
+Repetimos esse processo até encontrar o nome ou esgotar as possibilidades.
+
+Com isso, em vez de até 99 comparações, no pior caso seriam apenas 7 (pois 
+log
+⁡
+2
+100
+≈
+6.64
+log 
+2
+​
+ 100≈6.64).
 
 ---
 
